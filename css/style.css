@@ -111,7 +111,7 @@ body {
 @media (max-width: 768px){
   .header .button-list .prim-btn,
   .header .button-list .sec-btn{
-    padding: 1em 7em;
+    padding: 1em 6em;
   }
 }
 .header .button-list .prim-btn:hover{
@@ -285,4 +285,10 @@ body {
 .Challenge a{
   color: var(--strong_cyan);
   margin-left: 4px;
+}
+@media (max-width: 768px){
+  .Challenge
+  {
+    padding: 0.2em;
+  }
 }
